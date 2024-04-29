@@ -1,0 +1,12 @@
+[submodule "subprojects/duckdb"]
+	path = subprojects/duckdb
+	url = git@github.com:drin/duckdb.git
+	branch = feat-skytether-engine
+[submodule "subprojects/duckdb-substrait"]
+	path = subprojects/duckdb-substrait
+	url = git@github.com:drin/duckdb-substrait.git
+	branch = feat-skytether-engine
+[submodule "subprojects/duckdb-arrow"]
+	path = subprojects/duckdb-arrow
+	url = git@github.com:drin/duckdb-arrow.git
+	branch = feat-skytether-engine
