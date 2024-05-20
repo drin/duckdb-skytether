@@ -6,7 +6,7 @@ arrow_dpath="${PWD}/subprojects/duckdb-arrow"
 
 cmake -S "${source_dpath}"                                                       \
       -B "${build_dpath}"                                                        \
-      -DCMAKE_BUILD_TYPE=Debug                                                   \
+      -DCMAKE_BUILD_TYPE=Release                                                 \
       -DCMAKE_INSTALL_PREFIX="/usr/local/duckdb-skytether"                       \
       -DEXTENSION_STATIC_BUILD=1                                                 \
       -DBUILD_EXTENSIONS="tpch;json"                                             \
