@@ -1,0 +1,10 @@
+# A modified version of github.com/substrait-io/substrait/buf.gen.yaml for
+# this repo's directory structure
+#
+
+version: v1
+managed:
+  enabled: true
+plugins:
+  - plugin: buf.build/protocolbuffers/cpp:v21.7
+    out: subprojects/duckdb-substrait/third_party/mohair
