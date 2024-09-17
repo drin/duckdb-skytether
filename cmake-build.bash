@@ -4,6 +4,9 @@ build_dpath="${PWD}/build-dir-release"
 substrait_dpath="${PWD}/subprojects/duckdb-substrait"
 arrow_dpath="${PWD}/subprojects/duckdb-arrow"
 
+# substrait_dpath="${HOME}/code/duckdb-substrait"
+
+#       -DCMAKE_BUILD_TYPE=Debug                                                   \
 cmake -S "${source_dpath}"                                                       \
       -B "${build_dpath}"                                                        \
       -DCMAKE_BUILD_TYPE=Release                                                 \

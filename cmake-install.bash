@@ -1,3 +1,4 @@
+# build_dpath="${PWD}/build-dir-debug"
 build_dpath="${PWD}/build-dir-release"
 
 echo "running install:"
