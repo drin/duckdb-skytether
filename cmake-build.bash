@@ -7,10 +7,11 @@ arrow_dpath="${PWD}/subprojects/duckdb-arrow"
 # substrait_dpath="${HOME}/code/duckdb-substrait"
 
 #       -DCMAKE_BUILD_TYPE=Debug                                                   \
+#      -DBUILD_PYTHON=1                                                           \
 cmake -S "${source_dpath}"                                                       \
       -B "${build_dpath}"                                                        \
       -DCMAKE_BUILD_TYPE=Release                                                 \
-      -DCMAKE_INSTALL_PREFIX="/usr/local/duckdb-skytether"                       \
+      -DCMAKE_INSTALL_PREFIX="/opt/homebrew"                                     \
       -DEXTENSION_STATIC_BUILD=1                                                 \
       -DBUILD_EXTENSIONS="tpch;json"                                             \
       -DDUCKDB_EXTENSION_NAMES="substrait;arrow"                                 \
