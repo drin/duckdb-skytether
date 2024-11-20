@@ -10,10 +10,3 @@
 	path = subprojects/duckdb-arrow
 	url = https://github.com/drin/duckdb-arrow.git
 	branch = feat-skytether-engine
-[submodule "subprojects/substrait-protocol"]
-	path = subprojects/substrait-protocol
-	url = https://github.com/drin/substrait.git
-	branch = mohair
-[submodule "subprojects/mohair-protocol"]
-	path = subprojects/mohair-protocol
-	url = https://github.com/drin/mohair-protocol.git
