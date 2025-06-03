@@ -10,3 +10,7 @@
 	path = subprojects/duckdb-arrow
 	url = https://github.com/drin/duckdb-arrow.git
 	branch = feat-skytether-engine
+[submodule "subprojects/duckdb-nanoarrow"]
+	path = subprojects/duckdb-nanoarrow
+	url = https://github.com/drin/duckdb-nanoarrow.git
+	branch = feat-skytether-engine
